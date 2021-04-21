@@ -1,8 +1,135 @@
 @font-face {
-  font-family: Gotham;
-  src: url(Fonts/GothamBold.ttf); }
-@font-face {
-  font-family: Helvatica;
-  src: url(Fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf); }
+    font-family: Gotham;
+    src: url(./Fonts/GothamBold.ttf);
+}
 
-/*# sourceMappingURL=style.css.map */
+@font-face {
+    font-family: Helvatica;
+    src: url(./Fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url(./Fonts/Gotham-Light.otf);
+}
+
+header{
+    background-color: #383838;
+    font-family: Gotham;
+}
+
+header a{
+    color: #888888;
+}
+
+.gotham{
+    font-family: Gotham;
+}
+
+.helvatica{
+    font-family: Helvatica;
+}
+
+.gotham-light{
+    font-family: Gotham-light;
+}
+
+.box-model{
+    height: 35px;
+}
+
+header a:hover{
+    color: #D35266;
+    text-decoration: none;
+}
+
+.sell-buy{
+    background-color: #D35266;
+    border-radius: 5px;
+}
+
+.search-button{
+    background-color: #383838;
+    color: #888888;
+}
+
+
+.my-photo{
+    width: 25px;
+    height: 25px;
+}
+
+.grey {
+    color: #888888;
+}
+
+.black {
+    color: #383838;
+}
+
+main{
+    background-color: #888888;
+}
+
+.hover-logo:hover{
+    color: #383838;
+    text-decoration: none;
+}
+
+.hot-img{
+    background-image: linear-gradient(to bottom, rgba(211, 82, 102, 0.8), rgba(211, 82, 102, 0.8)),
+    url(./Images/home-images/home-images/hot-image.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: initial;
+    background-position: center;
+}
+
+footer a,
+footer p,
+footer td{
+        font-family: Helvatica;
+        font-weight: 700;
+    }
+footer .text-uppercase{
+        font-family: Gotham;
+    }
+
+footer i{
+        color: #D35266;
+    }
+
+footer .footer-logo{
+        background-color: #383838;
+        border-radius: 5px;
+    }
+.footer-logo a{
+        color: #888888;
+    }
+.footer-logo p{
+        color: #383838;
+    }
+
+.pink{
+        color: #D35266;
+    }
+
+a{
+        color: #383838;
+    }
+.small-font{
+    font-size: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .small-font {
+        font-size: 16px;
+    }
+
+    .hot-img{
+        height: 300px;
+    }
+    
+}
