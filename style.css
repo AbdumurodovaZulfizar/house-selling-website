@@ -38,6 +38,10 @@ header a{
     height: 35px;
 }
 
+.none-decoration{
+    text-decoration: none;
+}
+
 header a:hover{
     color: #D35266;
     text-decoration: none;
@@ -53,22 +57,31 @@ header a:hover{
     color: #888888;
 }
 
+.black-background{
+    background-color: #383838;
+}
+
 
 .my-photo{
     width: 25px;
     height: 25px;
 }
 
+.cap-image{
+    height: 170px;
+    width: 100%;
+}
+
 .grey {
     color: #888888;
 }
 
-.black {
-    color: #383838;
+.grey-background{
+    background-color: #888888;
 }
 
-main{
-    background-color: #888888;
+.black {
+    color: #383838;
 }
 
 .hover-logo:hover{
@@ -87,11 +100,20 @@ main{
     background-position: center;
 }
 
+.add-container{
+    background-image: url(./Images/home-images/home-images/home7.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
 footer a,
 footer p,
 footer td{
         font-family: Helvatica;
         font-weight: 700;
+        color: #383838;
     }
 footer .text-uppercase{
         font-family: Gotham;
