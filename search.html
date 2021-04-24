@@ -34,41 +34,42 @@
       </nav>
       </header>
 
-      <main class="bg-light">
+      <main class="bg-light p-0 m-0 w-100">
         <section class="pt-md-5 mt-md-3">
-            <div class="hot-img d-flex flex-column col-12 p-0 m-0">
+          <div class="hot-img d-flex flex-column col-12 p-0 m-0">
+            
+              <h2 class="text-uppercase mx-auto text-center pt-5 gotham mt-3 text-white">collection</h2>
+              <p class="text-center px-2 gotham-light text-white">Buying And Selling Couldn't be Simpler than this</p>
               
-                <h2 class="text-uppercase mx-auto text-center pt-5 gotham mt-3 text-white">collection</h2>
-                <p class="text-center px-2 gotham-light text-white">Buying And Selling Couldn't be Simpler than this</p>
+              <div class="list-inline d-flex flex-column flex-md-row text-center text-md-left pt-md-5 mx-auto">
                 
-                <div class="list-inline d-flex flex-column flex-md-row text-center text-md-left pt-md-5 mx-auto">
-                  
-                  <div class="list-inline-item col-12 col-md-2 py-1">
-                    <select id="category" name="category" class=" box-model gotham-light mr-2 rounded">
-                      <option value="categories"><p class="mr-4">All categories</p></option>
-                      <option value="canada">3 bedroom</option>
-                      <option value="usa">2 bedroom</option>
-                      <option value="usa">1 bedroom</option>
-                    </select>
-                  </div>
-                  <div class="list-inline-item col-12 col-md-3 py-1">
-                    <input type="text" id="lname" name="lastname" placeholder="Who do you search for?" class=" box-model gotham-light rounded">
-                  </div>
-                  <div class="list-inline-item col-12 col-md-3 py-1">
-                    <input type="text" id="lname" name="lastname" placeholder="Type here..." class=" box-model gotham-light rounded">
-                  </div>
-                  <div class="list-inline-item col-12 col-md-4 pt-1"><button class="text-uppercase px-3 py-1 gotham-light rounded search-button"><a href="search.html" class="grey">search</a></button>
-                  </div>
-                </div>    
-            </div>
-          </section>
+                <div class="list-inline-item col-12 col-md-3 py-1 w-100 m-0">
+                  <select id="category" name="category" class=" box-model gotham-light mr-2 rounded w-100">
+                    <option value="categories"><p class="mr-4">All categories</p></option>
+                    <option value="canada">3 bedroom</option>
+                    <option value="usa">2 bedroom</option>
+                    <option value="usa">1 bedroom</option>
+                  </select>
+                </div>
+                <div class="list-inline-item col-12 col-md-3 py-1 m-0">
+                  <input type="text" id="lname" name="lastname" placeholder="Search location..." class=" box-model gotham-light rounded w-100">
+                </div>
+                <div class="list-inline-item col-12 col-md-3 py-1 m-0">
+                  <input type="text" id="lname" name="lastname" placeholder="Search feature..." class=" box-model gotham-light rounded w-100 px-3">
+                </div>
+                <div class="list-inline-item col-12 col-md-3 p-0 pt-1 m-0"><button class="text-uppercase px-3 py-1 gotham-light rounded search-button ml-3"><a href="search.html" class="grey hover-link">search</a></button>
+                </div>
+              
+              </div>
+              
+          </div>
+        </section>
 
-
-          <div class="row">
-            <section class="col-md-4 d-none d-md-inline pt-3 border-right pl-5 m-0 ">
+          <div class="row p-0 m-0">
+            <section class="col-md-4 d-none d-md-inline border-right pl-lg-5 m-0 pt-4">
                 <table class="">
                     <tr class="">
-                        <td class="p-3 pl-5">
+                        <td class="px-3 pl-lg-3">
                             <h5 class="gotham-light black font-weight-bold">Rooms:</h5>
                             <select id="category" name="category" class=" box-model gotham-light mr-2 rounded col-12">
                                 <option value="categories"><p class="mr-4">2 rooms</p></option>
@@ -78,7 +79,7 @@
                               </select>
                         </td>
                         <td>
-                            <h5 class="gotham-light black font-weight-bold">Family capacity:</h5>
+                            <h5 class="gotham-light black font-weight-bold">Family:</h5>
                             <select id="category" name="category" class=" box-model gotham-light mr-2 rounded col-12">
                                 <option value="categories"><p class="mr-4">1 family</p></option>
                                 <option value="canada">2 family</option>
@@ -88,11 +89,11 @@
                         </td>
                     </tr>
                 </table>
-                <hr class="col-10 ml-2 pl-5">
-                <div class="px-5 py-1">
+                <hr class="col-10 ml-2 pl-2">
+                <div class="pl-2 px-lg-3 py-1">
                 <h5 class="gotham-light black font-weight-bold">Type of location</h5>
                     <label class="gotham-light black">
-                    <input type="radio" checked="checked" name="radio">
+                    <input type="radio"  name="radio">
                     <span class="checkmark"></span>Humid climate
                     </label><br>
                     <label class="gotham-light black">
@@ -108,57 +109,175 @@
                     <span class="checkmark"></span>Cold climate
                     </label>
                 </div>
-                <hr class="col-10 ml-2 pl-5">
-                <div class="px-5 py-4">
+                <hr class="col-10 ml-2 pl-2">
+                <div class="pl-2 px-lg-3 py-4">
                     <h5 class="gotham-light black font-weight-bold">Other aspects</h5>
-                        <label class="gotham-light black">
-                        <input type="checkbox" checked="checked">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" class="">
                         <span class="checkmark"></span>Beach
                         </label><br>
-                        <label class="gotham-light black">
-                        <input type="checkbox">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" class="">
                         <span class="checkmark"></span>Kid friendly
                         </label><br>
-                        <label class="gotham-light black">
-                        <input type="checkbox">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" class="">
                         <span class="checkmark"></span>Parking
                         </label><br>
-                        <label class="gotham-light black">
-                        <input type="checkbox">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" class="">
                         <span class="checkmark"></span>Near to city-centre
                         </label><br>
-                        <label class="gotham-light black">
-                        <input type="checkbox">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" class="">
                         <span class="checkmark"></span>Good weather
                         </label>
                 </div>
-                <div class="px-5 py-4">
+                <hr class="col-10 ml-2 pl-2">
+                <div class="pl-2 px-lg-3 py-4">
                     <h5 class="gotham-light black font-weight-bold">Price ranges</h5>
-                        <label class="gotham-light black">
-                        <input type="checkbox" checked="checked">
+                        <label class="gotham-light black main">
+                        <input type="checkbox">
                         <span class="checkmark"></span>50-100k dollars
                         </label><br>
-                        <label class="gotham-light black">
+                        <label class="gotham-light black main">
                         <input type="checkbox">
                         <span class="checkmark"></span>100-120k dollars
                         </label><br>
-                        <label class="gotham-light black">
-                        <input type="checkbox">
+                        <label class="gotham-light black main">
+                        <input type="checkbox" checked>
                         <span class="checkmark"></span>120-150k dollars
                         </label><br>
-                        <label class="gotham-light black">
+                        <label class="gotham-light black main">
                         <input type="checkbox">
                         <span class="checkmark"></span>150-170k dollars
                         </label><br>
-                        <label class="gotham-light black">
+                        <label class="gotham-light black main">
                         <input type="checkbox">
                         <span class="checkmark"></span>200k+ dollars
                         </label>
                 </div>
             </section>
-            <section class="col-md-7 container pt-4 pr-0">
-                <div >
-                <h6 class="grey gotham-light"><span class="black font-weight-bold">138</span> results for <span class="black font-weight-bold">'Flat'</span> Search at <span class="black font-weight-bold">Turkish</span> in Category <span class="black font-weight-bold">Near to city-centre</span></h6>
+            <section class="col-md-7 container p-0 pt-4 px-2">
+                <div class="">
+                <h6 class="grey gotham-light helvatica font-weight-bold small"><span class="black font-weight-bold">286</span> results for <span class="black font-weight-bold">'Flat'</span> Search at <span class="black font-weight-bold">Turkish</span> in Category <span class="black font-weight-bold">Near to city-centre</span></h6>
+                </div>
+                <div class="row border search-container bg-white my-4 mx-0 p-0">
+                  <div class="col-12 col-lg-5 p-0 m-0">
+                    <img src="./Images/home-images/home-images/home3.jfif" alt="" class="w-100 search-image">
+                  </div>
+                  <div class="col-12 col-lg-7 d-flex-flex-column">
+                    <div class="row">
+                    <div class="col-12 col-md-9">
+                      <h6 class="grey pt-2 small"><i class="fas fa-sync-alt small pr-2"></i>2 days ago</h6>
+                      <h5 class="pink gotham-light">Modern remote control house</h5>
+                      <h6 class="black gotham-light">Termez, Uzbekistan · <span class="pink gotham-light">200000USD</span></h6>
+                      <h6 class="helvatica black font-weight-bold">Feature: available summer pool<i class="fas fa-swimmer pl-2 small"></i></h6>
+                      
+                    </div>
+                    <div class="d-none d-md-inline col-md-3 p-0 m-0">
+                       <div class="float-md-right">
+                        <i class="fas fa-bookmark p-2 pt-3 grey fa-lg"></i><i class="fas fa-heart p-2 pt-3 pink fa-lg"></i>
+                       </div>
+                    </div>
+                    </div>
+                    <div>
+                    <ul class="list-inline pt-2">
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-envelope pr-2"></i>Email</div></a></li>
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-phone pr-2"></i>+998 99 078 65 78</div></a></li>
+                      <li class="list-inline-item"></li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row border search-container bg-white my-4 mx-0 p-0">
+                  <div class="col-12 col-lg-5 p-0 m-0">
+                    <img src="./Images/home-images/home-images/home8.jfif" alt="" class="w-100 search-image">
+                  </div>
+                  <div class="col-12 col-lg-7 d-flex-flex-column">
+                    <div class="row">
+                    <div class="col-12 col-md-9">
+                      <h6 class="grey pt-2 small"><i class="fas fa-sync-alt small pr-2"></i>2 days ago</h6>
+                      <h5 class="pink gotham-light">Modern remote control house</h5>
+                      <h6 class="black gotham-light">Termez, Uzbekistan · <span class="pink gotham-light">200000USD</span></h6>
+                      <h6 class="helvatica black font-weight-bold">Feature: available summer pool<i class="fas fa-swimmer pl-2 small"></i></h6>
+                      
+                    </div>
+                    <div class="d-none d-md-inline col-md-3 p-0 m-0">
+                       <div class="float-md-right">
+                        <i class="fas fa-bookmark p-2 pt-3 grey fa-lg"></i><i class="fas fa-heart p-2 pt-3 pink fa-lg"></i>
+                       </div>
+                    </div>
+                    </div>
+                    <div>
+                    <ul class="list-inline pt-2">
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-envelope pr-2"></i>Email</div></a></li>
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-phone pr-2"></i>+998 99 078 65 78</div></a></li>
+                      <li class="list-inline-item"></li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              
+
+                <div class="row border search-container bg-white my-4 mx-0 p-0">
+                  <div class="col-12 col-lg-5 p-0 m-0">
+                    <img src="./Images/home-images/home-images/home12.jfif" alt="" class="w-100 search-image">
+                  </div>
+                  <div class="col-12 col-lg-7 d-flex-flex-column">
+                    <div class="row">
+                    <div class="col-12 col-md-9">
+                      <h6 class="grey pt-2 small"><i class="fas fa-sync-alt small pr-2"></i>2 days ago</h6>
+                      <h5 class="pink gotham-light">Modern remote control house</h5>
+                      <h6 class="black gotham-light">Termez, Uzbekistan · <span class="pink gotham-light">200000USD</span></h6>
+                      <h6 class="helvatica black font-weight-bold">Feature: available summer pool<i class="fas fa-swimmer pl-2 small"></i></h6>
+                      
+                    </div>
+                    <div class="d-none d-md-inline col-md-3 p-0 m-0">
+                       <div class="float-md-right">
+                        <i class="fas fa-bookmark p-2 pt-3 grey fa-lg"></i><i class="fas fa-heart p-2 pt-3 pink fa-lg"></i>
+                       </div>
+                    </div>
+                    </div>
+                    <div>
+                    <ul class="list-inline pt-2">
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-envelope pr-2"></i>Email</div></a></li>
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-phone pr-2"></i>+998 99 078 65 78</div></a></li>
+                      <li class="list-inline-item"></li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row border search-container bg-white my-4 mx-0 p-0">
+                  <div class="col-12 col-lg-5 p-0 m-0">
+                    <img src="./Images/home-images/home-images/home1.jfif" alt="" class="w-100 search-image">
+                  </div>
+                  <div class="col-12 col-lg-7 d-flex-flex-column">
+                    <div class="row">
+                    <div class="col-12 col-md-9">
+                      <h6 class="grey pt-2 small"><i class="fas fa-sync-alt small pr-2"></i>2 days ago</h6>
+                      <h5 class="pink gotham-light">Modern remote control house</h5>
+                      <h6 class="black gotham-light">Termez, Uzbekistan · <span class="pink gotham-light">200000USD</span></h6>
+                      <h6 class="helvatica black font-weight-bold">Feature: available summer pool<i class="fas fa-swimmer pl-2 small"></i></h6>
+                      
+                    </div>
+                    <div class="d-none d-md-inline col-md-3 p-0 m-0">
+                       <div class="float-md-right">
+                        <i class="fas fa-bookmark p-2 pt-3 grey fa-lg"></i><i class="fas fa-heart p-2 pt-3 pink fa-lg"></i>
+                       </div>
+                    </div>
+                    </div>
+                    <div>
+                    <ul class="list-inline pt-2">
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-envelope pr-2"></i>Email</div></a></li>
+                      <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black"><div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-phone pr-2"></i>+998 99 078 65 78</div></a></li>
+                      <li class="list-inline-item"></li>
+                    </ul>
+                    </div>
+                  </div>
                 </div>
              </section>
           </div>

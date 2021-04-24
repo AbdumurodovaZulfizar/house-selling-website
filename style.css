@@ -1,3 +1,12 @@
+body{
+    overflow-x: hidden;
+}
+
+.hover-link:hover{
+    text-decoration: none;
+    color: initial;
+}
+
 @font-face {
     font-family: Gotham;
     src: url(./Fonts/GothamBold.ttf);
@@ -80,12 +89,41 @@ header a:hover{
     background-color: #888888;
 }
 
+.pink-background{
+    background-color: #D35266;
+    
+}
+
+input{
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #D35266;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #D35266;
+}
+
+
+
+
+
+
+
 .black {
     color: #383838;
 }
 
 .hover-logo:hover{
-    color: #383838;
+    color: #D35266;
     text-decoration: none;
 }
 
@@ -145,6 +183,11 @@ a{
     font-size: 8px;
 }
 
+footer a:hover{
+    color: #D35266;
+    text-decoration: none;
+}
+
 
 
 .title-sentence{
@@ -169,3 +212,15 @@ a{
     }
     
 }
+
+.search-image{
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.search-container{
+    border-radius: 10px;
+}
+
+
