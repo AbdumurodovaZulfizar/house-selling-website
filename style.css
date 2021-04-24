@@ -129,8 +129,6 @@ input[type='radio']:checked::after {
   font-family: Gotham-light, sans-serif;
 }
 
-
-
 /* responsives */
 .small-font {
   font-size: 8px;
