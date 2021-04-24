@@ -1,3 +1,4 @@
+/* general rules */
 body{
     overflow-x: hidden;
 }
@@ -5,42 +6,6 @@ body{
 .hover-link:hover{
     text-decoration: none;
     color: initial;
-}
-
-@font-face {
-    font-family: Gotham;
-    src: url(./Fonts/GothamBold.ttf);
-}
-
-@font-face {
-    font-family: Helvatica;
-    src: url(./Fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
-}
-
-@font-face {
-    font-family: Gotham-light;
-    src: url(./Fonts/Gotham-Light.otf);
-}
-
-header{
-    background-color: #383838;
-    font-family: Gotham;
-}
-
-header a{
-    color: #888888;
-}
-
-.gotham{
-    font-family: Gotham;
-}
-
-.helvatica{
-    font-family: Helvatica;
-}
-
-.gotham-light{
-    font-family: Gotham-light;
 }
 
 .box-model{
@@ -51,25 +16,12 @@ header a{
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover,
+footer a:hover,
+.hover-logo:hover{
     color: #D35266;
     text-decoration: none;
 }
-
-.sell-buy{
-    background-color: #D35266;
-    border-radius: 5px;
-}
-
-.search-button{
-    background-color: #383838;
-    color: #888888;
-}
-
-.black-background{
-    background-color: #383838;
-}
-
 
 .my-photo{
     width: 25px;
@@ -81,20 +33,7 @@ header a:hover{
     width: 100%;
 }
 
-.grey {
-    color: #888888;
-}
-
-.grey-background{
-    background-color: #888888;
-}
-
-.pink-background{
-    background-color: #D35266;
-    
-}
-
-input{
+input,label{
     cursor: pointer;
 }
 
@@ -110,21 +49,6 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid #D35266;
-}
-
-
-
-
-
-
-
-.black {
-    color: #383838;
-}
-
-.hover-logo:hover{
-    color: #D35266;
-    text-decoration: none;
 }
 
 .hot-img{
@@ -146,47 +70,69 @@ input[type='radio']:checked:after {
     width: 100%;
 }
 
-footer a,
-footer p,
-footer td{
-        font-family: Helvatica;
-        font-weight: 700;
-        color: #383838;
-    }
-footer .text-uppercase{
-        font-family: Gotham;
-    }
+.search-image{
+    height: 100%;
+}
+/* colors */
+.black-background{
+    background-color: #383838;
+}
 
-footer i{
-        color: #D35266;
-    }
+.grey {
+    color: #888888;
+}
 
-footer .footer-logo{
-        background-color: #383838;
-        border-radius: 5px;
-    }
-.footer-logo a{
-        color: #888888;
-    }
-.footer-logo p{
-        color: #383838;
-    }
+.grey-background{
+    background-color: #888888;
+}
+
+.pink-background{
+    background-color: #D35266;
+    
+}
+
+.black {
+    color: #383838;
+}
 
 .pink{
-        color: #D35266;
-    }
+    color: #D35266;
+}
 
-a{
-        color: #383838;
-    }
+/* fonts */
+@font-face {
+    font-family: Gotham;
+    src: url(./Fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: Helvatica;
+    src: url(./Fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url(./Fonts/Gotham-Light.otf);
+}
+
+.gotham{
+    font-family: Gotham;
+}
+
+.helvatica{
+    font-family: Helvatica;
+}
+
+.gotham-light{
+    font-family: Gotham-light;
+}
+
+/* responsives */
 .small-font{
     font-size: 8px;
 }
 
-footer a:hover{
-    color: #D35266;
-    text-decoration: none;
-}
+
 
 
 
@@ -206,21 +152,4 @@ footer a:hover{
     .title-sentence{
         font-size: 24px;
     }
-
-    .box{
-        width: 230px;
-    }
-    
 }
-
-.search-image{
-    height: 100%;
-    border-radius: 10px;
-    
-}
-
-.search-container{
-    border-radius: 10px;
-}
-
-

@@ -4,7 +4,7 @@
 
 This project has 2 pages, namely: home page and search page. It is completely responsive and targets 2 breakpoints. This project also utilizes utility classes heavily such as `mt-3`, `flex`, instead of specific classes like `navigation`, `accordion` etc, for their reusability purposes.
 
-All the `.css` file has been segmentized into directories depending on their `action`. For example: `margin` and `padding` classes go inside the `utility` directory and more generic classes such as the `btn` go inside the `components` directory. The componentization method has been adopted to avoid specificity issues and for ease of `import`ing the files.
+All the `.css` file has been segmentized into directories depending on their `action`. For example: `pink` and `pink-background` classes go inside the `colors` directory and more generic classes such as the `gotham` go inside the `Fonts` directory. The componentization method has been adopted to avoid specificity issues and for ease of `import`ing the files.
 
 
 ### Home page layout
@@ -18,6 +18,7 @@ All the `.css` file has been segmentized into directories depending on their `ac
 ## On Phone mode
 
 ![home layout](./Images/readme-images/home-phone.PNG)
+<br>
 ![search layout](./Images/readme-images/search-phone.PNG)
 
 ## Built With
