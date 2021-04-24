@@ -17,10 +17,12 @@ All the `.css` file has been segmentized into directories depending on their `ac
 
 ## On Phone mode
 <table>
-    <tr>
-        <td>![home layout](./Images/readme-images/home-phone.PNG)</td>
-        <td>![search layout](./Images/readme-images/search-phone.PNG)</td>
-    </tr>
+<tr>
+<td>
+![home layout](./Images/readme-images/home-phone.PNG) </td>
+<td>
+![search layout](./Images/readme-images/search-phone.PNG)</td>
+</tr>
 </table>
 ## Built With
 
