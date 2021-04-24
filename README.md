@@ -16,14 +16,10 @@ All the `.css` file has been segmentized into directories depending on their `ac
 ![search layout](./Images/readme-images/homepage.PNG)
 
 ## On Phone mode
-<table>
-<tr>
-<td>
-![home layout](./Images/readme-images/home-phone.PNG) </td>
-<td>
-![search layout](./Images/readme-images/search-phone.PNG)</td>
-</tr>
-</table>
+
+![home layout](./Images/readme-images/home-phone.PNG)
+![search layout](./Images/readme-images/search-phone.PNG)
+
 ## Built With
 
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
