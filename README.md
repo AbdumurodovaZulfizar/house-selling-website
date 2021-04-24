@@ -13,7 +13,7 @@ All the `.css` file has been segmentized into directories depending on their `ac
 
 ### Search page layout
 
-![search layout](./Images/readme-images/homepage.PNG)
+![search layout](./Images/readme-images/searchpage.PNG)
 
 ## On Phone mode
 
