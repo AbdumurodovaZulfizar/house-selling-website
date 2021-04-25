@@ -1,0 +1,160 @@
+/* general rules */
+body {
+  overflow-x: hidden;
+}
+
+.hover-link:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+.box-model {
+  height: 35px;
+}
+
+.none-decoration {
+  text-decoration: none;
+}
+
+header a:hover,
+footer a:hover,
+.hover-logo:hover {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.my-photo {
+  width: 25px;
+  height: 25px;
+}
+
+.cap-image {
+  height: 170px;
+  width: 100%;
+}
+
+input,
+label {
+  cursor: pointer;
+}
+
+input[type='radio']:checked::after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d35266;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #d35266;
+}
+
+.hot-img {
+  background-image:
+    linear-gradient(to bottom, rgba(211, 82, 102, 0.8), rgba(211, 82, 102, 0.8)),
+    url(./Images/home-images/home-images/hot-image.jpg);
+  height: 370px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: initial;
+  background-position: center;
+}
+
+.add-container {
+  background-image: url(./Images/home-images/home-images/home7.jpg);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.search-image {
+  height: 100%;
+}
+
+/* colors */
+.black-background {
+  background-color: #383838;
+}
+
+.grey {
+  color: #888;
+}
+
+.grey-background {
+  background-color: #888;
+}
+
+.pink-background {
+  background-color: #d35266;
+}
+
+.black {
+  color: #383838;
+}
+
+.pink {
+  color: #d35266;
+}
+
+/* fonts */
+@font-face {
+  font-family: Gotham;
+  src: url(./Fonts/GothamBold.ttf);
+}
+
+@font-face {
+  font-family: Helvatica;
+  src: url(./Fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.ttf);
+}
+
+@font-face {
+  font-family: Gotham-light;
+  src: url(./Fonts/Gotham-Light.otf);
+}
+
+.gotham {
+  font-family: Gotham, sans-serif;
+}
+
+.helvatica {
+  font-family: Helvatica, sans-serif;
+}
+
+.gotham-light {
+  font-family: Gotham-light, sans-serif;
+}
+
+/* responsives */
+.small-font {
+  font-size: 1.1ex;
+  line-height: 10px;
+}
+
+.title-sentence {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .small-font {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-font {
+    font-size: 16px;
+  }
+
+  .hot-img {
+    height: 300px;
+  }
+
+  .title-sentence {
+    font-size: 24px;
+  }
+}
