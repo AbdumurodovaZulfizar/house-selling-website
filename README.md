@@ -18,7 +18,6 @@ All the `.css` file has been segmentized into directories depending on their `ac
 ## On Phone mode
 
 ![home layout](./Images/readme-images/home-phone.PNG)
-<br>
 ![search layout](./Images/readme-images/search-phone.PNG)
 
 ## Built With
