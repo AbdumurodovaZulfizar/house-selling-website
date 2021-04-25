@@ -138,9 +138,10 @@ input[type='radio']:checked::after {
 .title-sentence {
   font-size: 15px;
 }
+
 @media screen and (min-width: 375px) {
   .small-font {
-    font-size: 11px
+    font-size: 11px;
   }
 }
 
