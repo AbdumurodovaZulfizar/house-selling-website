@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple steps.
 
 - `git clone https://github.com/AbdumurodovaZulfizar/house-selling-website.git`
 - `cd house-selling-website`
--  open HTMl file on your browser
+- Open HTMl file on your browser
 - If you have vscode `live-server` installed, run it and open `localhost:3000`
 
 ## Authors
