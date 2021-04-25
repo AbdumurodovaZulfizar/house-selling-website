@@ -36,13 +36,12 @@ To get a local copy up and running follow these simple steps.
 
 - `git clone https://github.com/AbdumurodovaZulfizar/house-selling-website.git`
 - `cd house-selling-website`
-- `git checkout -b project-branch`
-- `git pull origin project-branch`
+-  open HTMl file on your browser
 - If you have vscode `live-server` installed, run it and open `localhost:3000`
 
 ## Authors
 
-👩🏻‍💼 **Author1**
+👩🏻‍💼 **Zulfizar Abdumurodova**
 
 - GitHub: [@AbdumurodovaZulfizar](https://github.com/AbdumurodovaZulfizar)
 - Twitter: [@Zulfizar](https://twitter.com/Zulfiza70357085)
@@ -59,6 +58,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [MurodjonTursunpolatov](https://github.com/Murodjon000) for the project guidelines.
+- [Mohammed Awad on Behance](https://www.behance.net/M_Awad) for guidline to design pages.
 - [Microverse](https://www.microverse.org/) for international opportunities.
 - [Fontaawesome](https://fontawesome.com/) for their well-designed icons.
 - [Font Family](https://freefontsfamily.com/) for beatiful fonts.
@@ -68,9 +68,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+- [License](https://docs.google.com/document/d/1HjAQWTxqQMqipmBqn1mBq5bdqntuSvXa/edit) for this project.
