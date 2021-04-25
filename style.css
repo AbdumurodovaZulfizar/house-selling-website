@@ -131,11 +131,17 @@ input[type='radio']:checked::after {
 
 /* responsives */
 .small-font {
-  font-size: 8px;
+  font-size: 1.1ex;
+  line-height: 10px;
 }
 
 .title-sentence {
   font-size: 15px;
+}
+@media screen and (min-width: 375px) {
+  .small-font {
+    font-size: 11px
+  }
 }
 
 @media screen and (min-width: 768px) {
