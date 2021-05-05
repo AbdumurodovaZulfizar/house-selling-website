@@ -67,4 +67,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [License](https://docs.google.com/document/d/1HjAQWTxqQMqipmBqn1mBq5bdqntuSvXa/edit) for this project.
+- [Apache License](https://github.com/AbdumurodovaZulfizar/house-selling-website/blob/main/LICENSE.md) for this project.
