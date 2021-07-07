@@ -9,17 +9,24 @@ All the `.css` file has been segmentized into directories depending on their `ac
 
 ### Home page layout
 
-![home page card](./Images/readme-images/homepage.PNG)
+<img src="./Images/readme-images/house_labtop_01.PNG" alt="Example" style="width: 100%;">
 
 ### Search page layout
 
-![search layout](./Images/readme-images/searchpage.PNG)
+<img src="./Images/readme-images/house_labtop_02.PNG" alt="Example" style="width: 100%;">
 
 ## On Phone mode
 
-![home layout](./Images/readme-images/home-phone.PNG)
-<br>
-![search layout](./Images/readme-images/search-phone.PNG)
+<table>
+<tr>
+<td>
+<img src="./Images/readme-images/mobile_01.PNG" alt="Example" style="width: 100%;">
+</td>
+<td>
+<img src="./Images/readme-images/mobile_02.PNG" alt="Example" style="width: 100%;">
+</td>
+</tr>
+</table>
 
 ## Built With
 
