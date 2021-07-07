@@ -9,18 +9,18 @@ All the `.css` file has been segmentized into directories depending on their `ac
 
 ### Home page layout
 
-<img src="./Images/readme-images/house_labtop_01.PNG" alt="Example" style="width: 100%;">
+<img src="./Images/readme-images/house_labtop_01.png" alt="Example" style="width: 100%;">
 
 ### Search page layout
 
-<img src="./Images/readme-images/house_labtop_02.PNG" alt="Example" style="width: 100%;">
+<img src="./Images/readme-images/house_labtop_02.png" alt="Example" style="width: 100%;">
 
 ## On Phone mode
 
 <table>
 <tr>
 <td>
-<img src="./Images/readme-images/mobile_01.PNG" alt="Example" style="width: 100%;">
+<img src="./Images/readme-images/mobile_01.png" alt="Example" style="width: 100%;">
 </td>
 <td>
 <img src="./Images/readme-images/mobile_02.PNG" alt="Example" style="width: 100%;">
