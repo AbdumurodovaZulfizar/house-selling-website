@@ -9,16 +9,24 @@ All the `.css` file has been segmentized into directories depending on their `ac
 
 ### Home page layout
 
-![home page card](./Images/readme-images/homepage.PNG)
+<img src="./Images/readme-images/house_labtop_01.png" alt="Example" style="width: 100%;">
 
 ### Search page layout
 
-![search layout](./Images/readme-images/searchpage.PNG)
+<img src="./Images/readme-images/house_labtop_02.png" alt="Example" style="width: 100%;">
 
 ## On Phone mode
 
-![home layout](./Images/readme-images/home-phone.PNG)
-![search layout](./Images/readme-images/search-phone.PNG)
+<table>
+<tr>
+<td>
+<img src="./Images/readme-images/mobile_01.png" alt="Example" style="width: 100%;">
+</td>
+<td>
+<img src="./Images/readme-images/mobile_02.PNG" alt="Example" style="width: 100%;">
+</td>
+</tr>
+</table>
 
 ## Built With
 
@@ -35,7 +43,7 @@ To get a local copy up and running follow these simple steps.
 
 - `git clone https://github.com/AbdumurodovaZulfizar/house-selling-website.git`
 - `cd house-selling-website`
-- Open HTMl file on your browser
+-  open HTMl file on your browser
 - If you have vscode `live-server` installed, run it and open `localhost:3000`
 
 ## Authors
@@ -67,4 +75,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [Apache License](https://github.com/AbdumurodovaZulfizar/house-selling-website/blob/main/LICENSE.md) for this project.
+- [License](https://docs.google.com/document/d/1HjAQWTxqQMqipmBqn1mBq5bdqntuSvXa/edit) for this project.
